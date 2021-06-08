@@ -25,6 +25,16 @@ AlertScriptsPath=/usr/lib/zabbix/alertscripts
 5. message
 
 报警内容可以通过宏来自定义
+例如
+```
+Problem started at {EVENT.TIME} on {EVENT.DATE}
+Problem name: {EVENT.NAME}
+Host: {HOST.NAME}
+Severity:{TRIGGER.SEVERITY}
+
+Original problem ID: {EVENT.ID}
+{TRIGGER.URL}
+```
 
 ## 更多关于企业微信的api可以参考企业微信网站api
 [https://work.weixin.qq.com/api/doc/90001/90143/90372](https://work.weixin.qq.com/api/doc/90001/90143/90372)
