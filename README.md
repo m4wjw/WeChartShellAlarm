@@ -1,8 +1,6 @@
 # WeChartShellAlarm安装使用教程
 作者：Sam
 ***
-[TOC]
-***
 ## 安装
 ### 获取脚本保存位置
 `grep alertscripts /etc/zabbix/zabbix_server.conf `
