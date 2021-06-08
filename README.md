@@ -9,7 +9,8 @@ AlertScriptsPath=/usr/lib/zabbix/alertscripts
 ### 1.2 安装脚本
 #### 1.2.1 下载脚本
 **下载到server端**
-修改权限
+
+#### 1.2.2修改权限
 
 `chmod 755 wechat.sh`
 
